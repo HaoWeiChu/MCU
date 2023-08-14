@@ -1,7 +1,7 @@
 # MCU 
 
 ### 專案描述: 
-本專案主要為使用89s51/52 以及 Arduino UNO 進行軟任體開發實作，實作其中內容包括燒錄器、LED 原理以及應用、LCD液晶面板...等。
+本專案主要為使用89s51/52 以及 Arduino UNO 進行軟韌體開發實作，實作其中內容包括燒錄器、LED 原理以及應用、LCD液晶面板...等。
  
 ### 軟體使用:  
 Keil C、Arduino IDE、Windows CMD、OrCAD_Capture
