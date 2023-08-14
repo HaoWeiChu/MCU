@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\avrdude.exe " -C C:/AVR8051.conf -c stk500v1 -P COM6 -p 89s51 -b 19200 -U flash:w:"C:\Keil\C51\Examples\HELLO\LED_v2\LED.hex":a

@@ -1,0 +1,23 @@
+
+#include<regx51.h>
+#define LED P0
+#define LED_7_seg P2
+#define DIP_SW P3
+unsigned char i;
+code char tab[]={0xc0,
+   0xf9,0xa4,0xb0,0x99,0x92,0x82,0xf8,
+   0x80,0x98,0x88,0x83,0xc6,0xa1,0x84,0x8e,0x86};
+void main(void)		
+  { DIP_SW=0xFF;   
+    while(1) 
+	  { LED=~DIP_SW;
+	    if (DIP_SW>15) i=16; 
+	    else i=DIP_SW ;
+	    LED_7_seg=tab[i];
+	  }
+  }
+
+
+
+
+
